@@ -9,16 +9,19 @@ int heapSize;
 int isMaxHeap;
 
 //forward decl
-void swap(int *a, int *b);
-void displayAsArray();
-void displayAsTree();
-void up_heapify(int index);
-void down_heapify(int index);
-void insert(int heap[], int *size, int value);
-int findTop(int heap[]);
-void deleteRoot(int heap[], int *size);
-int extractTop(int heap[], int *size);
-void menu();
+void swap(int *a, int *b); //Justin
+void displayAsArray(); //Justin
+void displayAsTree(); //Justin
+void up_heapify(int index); //Migel
+void down_heapify(int index); //Migel
+void insert(int heap[], int *size, int value); //Jimmy
+int findTop(int heap[]); //Jimmy
+void deleteRoot(int heap[], int *size); //Jimmy
+int extractTop(int heap[], int *size); //Jimmy
+void menu(); //Migel
+
+/* Migel - I was thinking na yung part ko, share na lang kayo ron tas decide kayo 
+kung sino sa output, like maglalagay ng value ganern */
 
 int main() {
     heapSize = 0;
@@ -232,3 +235,4 @@ void menu() {
         }
     }
 }
+
