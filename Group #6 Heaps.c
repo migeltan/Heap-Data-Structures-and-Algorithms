@@ -12,13 +12,13 @@ int isMaxHeap;
 void swap(int *a, int *b); //Justin
 void displayAsArray(); //Justin
 void displayAsTree(); //Justin
-void up_heapify(int index); //Migel
-void down_heapify(int index); //Migel
+void up_heapify(int index); //Justin
+void down_heapify(int index); //Justin
 void insert(int heap[], int *size, int value); //Jimmy
 int findTop(int heap[]); //Jimmy
 void deleteRoot(int heap[], int *size); //Jimmy
 int extractTop(int heap[], int *size); //Jimmy
-void menu(); //Migel
+void menu(); //Jimmy
 
 /* Migel - I was thinking na yung part ko, share na lang kayo ron tas decide kayo 
 kung sino sa output, like maglalagay ng value ganern */
@@ -235,4 +235,5 @@ void menu() {
         }
     }
 }
+
 
